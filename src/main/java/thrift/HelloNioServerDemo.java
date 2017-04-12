@@ -1,14 +1,11 @@
 package thrift;
 
 import org.apache.thrift.TProcessor;
-import org.apache.thrift.protocol.TBinaryProtocol;
 import org.apache.thrift.protocol.TCompactProtocol;
 import org.apache.thrift.server.TNonblockingServer;
 import org.apache.thrift.server.TServer;
-import org.apache.thrift.server.TThreadPoolServer;
 import org.apache.thrift.transport.TFramedTransport;
 import org.apache.thrift.transport.TNonblockingServerSocket;
-import org.apache.thrift.transport.TServerSocket;
 import org.apache.thrift.transport.TTransportException;
 
 /**
@@ -22,7 +19,7 @@ public class HelloNioServerDemo {
         System.out.println("HelloWorld HelloNioServerDemo starting ````");
 
         // 1.引入TProcessor
-        TProcessor tProcessor = new thrift.HelloWorldService.Processor<thrift.HelloWorldService.Iface>(new HelloWorldImpl());
+        TProcessor tProcessor = new HelloWorldService.Processor<HelloWorldService.Iface>(new HelloWorldImpl());
 
         try {
             TNonblockingServerSocket serverTransport = new TNonblockingServerSocket(SERVER_PORT); // 2.创建TServerTransport

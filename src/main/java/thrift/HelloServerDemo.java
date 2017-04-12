@@ -18,7 +18,7 @@ public class HelloServerDemo {
         System.out.println("HelloWorld TSimpleServer starting ````");
 
         // 1.引入TProcessor
-        TProcessor tProcessor = new thrift.HelloWorldService.Processor<thrift.HelloWorldService.Iface>(new HelloWorldImpl());
+        TProcessor tProcessor = new HelloWorldService.Processor<HelloWorldService.Iface>(new HelloWorldImpl());
 
         try {
             TServerSocket serverTransport = new TServerSocket(SERVER_PORT); // 2.创建TServerTransport

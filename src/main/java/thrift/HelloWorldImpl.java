@@ -6,7 +6,7 @@ import org.apache.thrift.TException;
  * HelloWorldService实现类
  * Created by jjxx9 on 2017/4/12.
  */
-public class HelloWorldImpl implements thrift.HelloWorldService.Iface {
+public class HelloWorldImpl implements HelloWorldService.Iface {
     public HelloWorldImpl() {
     }
 
