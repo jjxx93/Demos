@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="redis" />
+        <module name="spring-quartz" />
         <module name="thrift" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Demos" target="1.5" />
+      <module name="Demos" target="1.7" />
       <module name="redis" target="1.7" />
+      <module name="spring-quartz" target="1.7" />
       <module name="thrift" target="1.7" />
     </bytecodeTargetLevel>
   </component>

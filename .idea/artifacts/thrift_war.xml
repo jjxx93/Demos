@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="thrift:war">
     <output-path>$PROJECT_DIR$/thrift/target</output-path>
-    <root id="archive" name="thrift.war">
+    <root id="archive" name="thrift-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="thrift:war exploded" />
     </root>
   </artifact>
