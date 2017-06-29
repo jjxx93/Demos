@@ -10,6 +10,8 @@
 
     <modules>
         <module>redis</module>
+        <module>thrift</module>
+        <module>spring-quartz</module>
     </modules>
 
     <properties>
@@ -39,11 +41,11 @@
         </dependency>
 
         <!--日志框架与实现-->
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
-            <version>1.7.7</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.slf4j</groupId>-->
+            <!--<artifactId>slf4j-log4j12</artifactId>-->
+            <!--<version>1.7.7</version>-->
+        <!--</dependency>-->
 
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
         <dependency>

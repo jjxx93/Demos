@@ -12,15 +12,15 @@
         <property name="targetMethod" value="periodicTask"/>
         <property name="concurrent" value="false"/>
     </bean>
-    <bean id="deleteExceedTimeLiveCourseTaskTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
-        <property name="jobDetail" ref="deleteExceedTimeLiveCourseQuartz"/>
+    <bean id="timerTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="timer"/>
         <!--每30秒执行1次 -->
         <property name="cronExpression" value="0/30 * * * * ?"/>
     </bean>
-    <bean id="deleteExceedTimeLiveCourseTaskScheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+    <bean id="timerScheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
         <property name="triggers">
             <list>
-                <ref bean="deleteExceedTimeLiveCourseTaskTrigger"/>
+                <ref bean="timerTrigger"/>
             </list>
         </property>
         <property name="startupDelay" value="60"></property>
