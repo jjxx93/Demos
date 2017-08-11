@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="framework-chapter1" />
         <module name="framework-chapter2" />
+        <module name="netty" />
         <module name="redis" />
         <module name="spring-quartz" />
         <module name="thrift" />
@@ -15,8 +16,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Demos" target="1.7" />
-      <module name="framework-chapter1" target="1.7" />
-      <module name="framework-chapter2" target="1.7" />
+      <module name="framework-chapter1" target="1.6" />
+      <module name="framework-chapter2" target="1.6" />
+      <module name="netty" target="1.7" />
       <module name="redis" target="1.7" />
       <module name="spring-quartz" target="1.7" />
       <module name="thrift" target="1.7" />

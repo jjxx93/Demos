@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Demos.iml" filepath="$PROJECT_DIR$/Demos.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework-chapter1/framework-chapter1.iml" filepath="$PROJECT_DIR$/framework-chapter1/framework-chapter1.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework-chapter2/framework-chapter2.iml" filepath="$PROJECT_DIR$/framework-chapter2/framework-chapter2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty/netty.iml" filepath="$PROJECT_DIR$/netty/netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-quartz/spring-quartz.iml" filepath="$PROJECT_DIR$/spring-quartz/spring-quartz.iml" />
       <module fileurl="file://$PROJECT_DIR$/thrift/thrift.iml" filepath="$PROJECT_DIR$/thrift/thrift.iml" />
