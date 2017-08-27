@@ -1,3 +1,5 @@
+package demo;
+
 import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.Site;
 import us.codecraft.webmagic.Spider;
@@ -47,7 +49,7 @@ public class GithubRepoPageProcessor extends FilePersistentBase implements PageP
 
     public static void main(String[] args) {
         try {
-            FileWriter fileWriter = new FileWriter(new File("D:\\export\\test.json"));
+            FileWriter fileWriter = new FileWriter(new File("E:/test.json"));
             PrintWriter printWriter = new PrintWriter(fileWriter);
             Spider.create(new GithubRepoPageProcessor())
                     .addUrl("http://blog.sina.com.cn/s/articlelist_1487828712_0_1.html")
