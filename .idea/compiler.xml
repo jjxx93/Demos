@@ -16,9 +16,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Demos" target="1.7" />
-      <module name="framework-chapter1" target="1.6" />
-      <module name="framework-chapter2" target="1.6" />
+      <module name="Demos" target="1.5" />
+      <module name="framework-chapter1" target="1.5" />
+      <module name="framework-chapter2" target="1.5" />
       <module name="netty" target="1.7" />
       <module name="redis" target="1.7" />
       <module name="spring-quartz" target="1.7" />
